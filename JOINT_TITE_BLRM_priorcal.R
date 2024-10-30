@@ -806,7 +806,7 @@ JOINT.TITE.BLRM.priorcal<-function(seed,tru.E.pars,tru.T.pars,tru.corET,co_size,
           if(nDLTs_doses_c1[do]>=hard.safety.mat[1, which(hard.safety.mat[2,]==npats_doses[do])]){
             
             min.over.indices.hold<-dose.indices[do,]
-            excluded.hold<-as.numeric((dose.indices[1]>=min.over.indices.hold[1])&(dose.indices[2]>=min.over.indices.hold[2]))
+            excluded.hold<-as.numeric((dose.indices[,1]>=min.over.indices.hold[1])&(dose.indices[,2]>=min.over.indices.hold[2]))
             excluded<-excluded+excluded.hold
             
             
