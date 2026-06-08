@@ -64,7 +64,9 @@ This script extracts the results from the second step of the calibration of the 
 
 `JOINT_TITE_BOIN_CRMutility.R` (added June 2026)
 
-These three functions each source data_generation_TTE_v2.R. They contain the necessary functions to conduct full simulated trials for each of the three methods.
+`JOINT_TITE_BOIN.R` (added June 2026)
+
+These functions each source data_generation_TTE_v2.R. They contain the necessary functions to conduct full simulated trials for each of the three methods.
 
 ## Simulation Execution:
 
