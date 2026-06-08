@@ -62,7 +62,9 @@ This script extracts the results from the second step of the calibration of the 
 
 `JOINT_TITE_POCRM.R`
 
-These two functions each source data_generation_TTE_v2.R. They contain the necessary functions to conduct full simulated trials for each of the three methods.
+`JOINT_TITE_BOIN_CRMutility.R` (added June 2026)
+
+These three functions each source data_generation_TTE_v2.R. They contain the necessary functions to conduct full simulated trials for each of the three methods.
 
 ## Simulation Execution:
 
@@ -70,11 +72,14 @@ These two functions each source data_generation_TTE_v2.R. They contain the neces
 
 `simulations_JOINT_TITE_POCRM.R`
 
-These two scripts each source their respective functions, which in turn source data_generation_TTE_v2.R. They execute the simulations.
+`simulations_JOINT_TITE_BOIN_CRMutility.R` (added June 2026)
+
+These three scripts each source their respective functions, which in turn source data_generation_TTE_v2.R. They execute the simulations.
 
 ## Simulation Results Extraction:
 
 `results_extraction_POCRM_BLRM.R`
 
-This script extracts the simulation results for the Joint TITE-BLRM and Joint TITE-POCRM.
+`results_extraction_BOIN_CRMutility.R` (added June 2026)
 
+These scripts extract the simulation results for the Joint TITE-BLRM, Joint TITE-POCRM and the TITE-comb-BOIN12 using the same utility as the CRM based methods.
